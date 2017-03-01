@@ -1,6 +1,6 @@
 export const emailChanged = text => {
-  return (
+  return ({
     type: 'email_changed',
     payload: text
-  );
+  });
 };
